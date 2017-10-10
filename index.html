@@ -69,6 +69,20 @@
             </section>
             <section data-markdown="example.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="iso-8859-15">
             </section>
+            <section data-markdown>
+                <script type="text/template">
+                    <!-- .slide: data-background="#770077" -->
+                    This one is not like the others... I forgot the data-markdown tag though.
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    <!-- .element: class="fragment" data-fragment-index="2" -->
+                    - Item 1
+                    <!-- .element: class="fragment" data-fragment-index="1" -->
+                    - Item 2
+                </script>
+            </section>
         </div>
     </div>
 
@@ -83,6 +97,8 @@
             progress: false,
             overview: true,
             keyboard: true,
+            width: '80%',
+            height: '50%',
             dependencies: [{
                 src: 'plugin/markdown/marked.js'
             }, {

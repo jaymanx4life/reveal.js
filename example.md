@@ -15,6 +15,17 @@ Some text below the header.
 It looks like I can create a new slide this way!
 
 
+Header 1.1
+-----------
+This is a vertical slide under Header 1.
+
+One space = line break
+
+Two spaces == vertical slide
+
+Three spaces == new horizontal slide.
+
+
 
 Header2
 ----------
